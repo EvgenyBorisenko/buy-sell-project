@@ -633,55 +633,73 @@
 .seven__section__right__box {
   width: 850px;
 }
-.module__nav {
-  width: 835px;
-  height: 52px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-.module__nav li {
-  width: 149px;
-  height: 51px;
-  font-weight: 500;
-  font-size: 18px;
-  padding-top: 15px;
-  line-height: 26px;
-  text-align: center;
-  align-content: center;
-}
-.module__nav li:hover {
-  width: 149px;
-  height: 51px;
-  background-image: url('./img/Layer\ 6583\ 1.png');
-  background-size: cover;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.module__nav li:link {
-  width: 149px;
-  height: 51px;
-  background-image: url('./img/Layer\ 6583\ 1.png');
-  background-size: cover;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-}
+/* --------------------------- */
 
-.module__nav__box {
+.wrapper {
   width: 836px;
   height: 327px;
   background: #ffffff;
   box-shadow: 3px 0px 55px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
+}
+.last__label {
+  margin-right: 0;
+}
+.wrapper label {
+  cursor: pointer;
+  float: left;
+  display: block;
+  padding: 12px 48.4px;
+  background-color: #ecf0f1;
+  border-radius: 5px 5px 0 0;
+}
+
+.wrapper input {
+  display: none;
+  width: 149px;
+  height: 51px;
+  background-image: url('./img/Layer\ 6583\ 1.png');
+  background-size: cover;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapper input:checked + label {
+  background-image: url('./img/Layer\ 6583\ 1.png');
+  background-size: cover;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapper input[id='tab-1']:checked ~ .content .tab-1,
+.wrapper input[id='tab-2']:checked ~ .content .tab-2,
+.wrapper input[id='tab-3']:checked ~ .content .tab-3,
+.wrapper input[id='tab-4']:checked ~ .content .tab-4,
+.wrapper input[id='tab-5']:checked ~ .content .tab-5 {
+  display: block;
+}
+.wrapper .content {
+  clear: both;
+  position: relative;
+}
+.wrapper article {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  display: none;
+  min-height: 200px;
+}
+/* ----------------------css tabs------------------------------- */
+.module__nav__box {
+  padding-bottom: 45px;
 }
 .seven__section__description {
   width: 425px;
   font-weight: 500;
-  font-size: 29px;
+  font-size: 27px;
   line-height: 26px;
   text-align: center;
   margin: 0 auto;
@@ -1243,4 +1261,25 @@ hr {
   text-align: center;
   color: #edeed4;
   margin: 0 auto;
+}
+
+/* -------Mobile Design-------- */
+@media (max-width: 768px) {
+  .header__wrapper {
+    min-width: 320px;
+    height: auto;
+  }
+  .container {
+    min-width: 320px;
+    margin: 0 auto;
+  }
+  .header__box {
+    display: flex;
+    flex-flow: column;
+  }
+  .navigation {
+    width: 200px;
+    display: flex;
+    flex-flow: column;
+  }
 }
