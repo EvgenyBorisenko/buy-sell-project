@@ -1393,4 +1393,43 @@ hr {
     padding-bottom: 55px;
     border-radius: unset;
   }
+  /* ------------third section mob ---------- */
+  .third__section {
+    width: 375px;
+  }
+  .third__section__title {
+    width: 350px;
+  }
+  .third__section__text {
+    width: 320px;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .third__section__text2 {
+    width: 291px;
+    height: auto;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .third__section__text3 {
+    width: 328px;
+    height: auto;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .macbook2_img {
+    width: 290px;
+    display: block;
+    height: 170px;
+    margin: 0 auto;
+  }
 }
