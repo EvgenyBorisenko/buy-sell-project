@@ -11,7 +11,7 @@
 }
 .header__wrapper {
   display: block;
-  width: 1920px;
+  width: 100%;
   height: 874px;
   background-image: url('./img/bg.png');
   background-size: cover;
@@ -83,6 +83,9 @@
   box-shadow: 0px 10px 30px rgba(252, 70, 71, 0.6);
   border-radius: 40px;
   color: #fff;
+  border: none;
+}
+.header__button:hover {
   cursor: pointer;
 }
 
@@ -113,7 +116,7 @@
   margin: 0 auto;
 }
 .first__section {
-  width: 1920px;
+  width: 100%;
   padding-top: 50px;
 }
 .firs__section__wrapper {
@@ -156,14 +159,14 @@
   color: #00a046;
   font-weight: 700;
 }
+/*  ============Second Section============  */
 
 .second__section {
-  width: 1920px;
+  width: 100%;
   height: 842px;
   background-image: url('./img//main\ 3.png');
   background-size: contain;
 }
-/*  ============Second Section============  */
 .second__section__wrapper {
   padding-top: 130px;
   display: flex;
@@ -234,7 +237,7 @@
 
 .third__section {
   display: block;
-  width: 1920px;
+  width: 100%;
   height: 907px;
   background-image: url('./img/-e-bg\ \ 1.png');
   background-repeat: no-repeat;
@@ -277,7 +280,7 @@
 /*  ============Fourth Section============  */
 
 .fourth__section {
-  width: 1920px;
+  width: 100%;
 }
 .fourth__section__container {
   width: 1365px;
@@ -481,7 +484,7 @@
 
 /*  ============Five Section============  */
 .five__section {
-  width: 1920px;
+  width: 100%;
   height: auto;
   padding-top: 120px;
   padding-bottom: 80px;
@@ -575,7 +578,7 @@
 /*  ============Six Section============  */
 .six__section {
   padding-top: 50px;
-  width: 1920px;
+  width: 100%;
   height: 497px;
   background-image: url('./img/bg.png');
   background-size: cover;
@@ -614,7 +617,7 @@
 /*  ============Seven Section============  */
 
 .seven__section {
-  width: 1920px;
+  width: 100%;
   height: auto;
 }
 .seven__section__content__box {
@@ -742,7 +745,7 @@
 }
 /*  ============Eight Section============  */
 .eight__section {
-  width: 1920px;
+  width: 100%;
   height: auto;
   padding-top: 90px;
 }
@@ -833,7 +836,7 @@
 /*  ============Nine  Section============  */
 
 .nine__section {
-  width: 1920px;
+  width: 100%;
   height: auto;
   padding-top: 100px;
 }
@@ -941,7 +944,7 @@
 
 /*  ============Ten  Section============  */
 .ten__section {
-  width: 1920px;
+  width: 100%;
   height: 1200px;
   padding-top: 120px;
 }
@@ -1026,7 +1029,7 @@
 
 /*  ============Eleven  Section============  */
 .eleven__section {
-  width: 1920px;
+  width: 100%;
   padding-top: 17px;
 }
 .eleven__section__container {
@@ -1068,7 +1071,7 @@
 
 /*  ============twelve  Section============  */
 .twelve__section {
-  width: 1920px;
+  width: 100%;
   height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -1164,7 +1167,7 @@
 }
 /*  ============ Footer ============  */
 .footer {
-  width: 1920px;
+  width: 100%;
   height: 437px;
   padding-top: 60px;
   background-image: url('./img/Group\ 92\ 2.png');
@@ -1802,3 +1805,44 @@ hr {
     margin-bottom: 40px;
   }
 }
+/* @media (max-width: 600px) {
+  .header__wrapper {
+    width: 100%;
+  }
+  .first__section {
+    width: 100%;
+  }
+  .second__section {
+    width: 100%;
+  }
+  .third__section {
+    width: 100%;
+  }
+  .fourth__section {
+    width: 100%;
+  }
+  .five__section {
+    width: 100%;
+  }
+  .six__section {
+    width: 100%;
+  }
+  .seven__section {
+    width: 100%;
+  }
+  .eight__section {
+    width: 100%;
+  }
+  .nine__section {
+    width: 100%;
+  }
+  .ten__section {
+    width: 100%;
+  }
+  .eleven__section {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+} */
