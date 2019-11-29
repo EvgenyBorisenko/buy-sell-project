@@ -1782,7 +1782,7 @@ hr {
     margin-bottom: 30px;
   }
   .right__footer__box {
-    width: 375px;
+    width: 100%;
     display: flex;
     flex-flow: column;
     padding-left: 25px;
