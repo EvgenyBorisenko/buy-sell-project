@@ -491,7 +491,7 @@
   margin: 0 auto;
 }
 .five__section__content__box {
-  width: 1000px;
+  width: 1220px;
   position: relative;
   display: flex;
 }
@@ -569,8 +569,7 @@
 }
 
 .iphone__img__rozetka {
-  position: absolute;
-  left: 53.5%;
+  border-radius: 20px;
 }
 
 /*  ============Six Section============  */
@@ -620,6 +619,9 @@
 }
 .seven__section__content__box {
   display: flex;
+}
+.iph__seve__secion {
+  display: block;
 }
 .seven__section__tittle {
   width: 810px;
@@ -1265,7 +1267,7 @@ hr {
 }
 
 /* -------Mobile Design-------- */
-@media (max-width: 767px) {
+@media (max-width: 376px) {
   .header__wrapper {
     width: 375px;
     height: auto;
@@ -1287,12 +1289,14 @@ hr {
   .header__title__box {
     width: 355px;
     padding-top: 70px;
+    margin-right: 0;
   }
   .header__title {
     font-size: 36px;
     line-height: 46px;
   }
   .header__span {
+    width: 320px;
     font-size: 43px;
   }
   .header__text {
@@ -1303,7 +1307,7 @@ hr {
   .header__photo__rozetka {
     width: 350px;
     height: 516px;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .header__computer {
     width: 320px;
@@ -1311,9 +1315,9 @@ hr {
   }
   .header__rozetka {
     position: absolute;
-    width: 200px;
-    top: 63%;
-    left: 20%;
+    width: 180px;
+    top: 73%;
+    left: 28%;
   }
   /* ------------first section mob ---------- */
   .first__section {
@@ -1382,7 +1386,7 @@ hr {
   .photo__man {
     z-index: 10;
     display: block;
-    width: 380px;
+    width: 350px;
     height: auto;
     padding: 0;
   }
@@ -1431,5 +1435,370 @@ hr {
     display: block;
     height: 170px;
     margin: 0 auto;
+  }
+  /* --------------------four section mob------------- */
+  .fourth__section {
+    display: none;
+  }
+  /* --------------------five section mob ------------- */
+  .five__section {
+    width: 375px;
+    padding: 0;
+  }
+  .five__section__container {
+    width: 350px;
+  }
+  .five__section__tittle {
+    width: 330px;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .five__section__content__box {
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+  }
+  .five__section__description__box {
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+  }
+  .iphone__img__rozetka {
+    display: block;
+    margin: 0 auto;
+  }
+  /* --------------------six section mob------------- */
+  .six__section {
+    width: 375px;
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .six__section__container {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .six__section__tittle {
+    width: 330px;
+    height: auto;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .rozetka__logo__smile {
+    display: block;
+    margin: 0 auto;
+    width: 53px;
+    height: 52px;
+    margin-bottom: 35px;
+  }
+  .six__section__text {
+    width: 291px;
+    height: auto;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  /* --------------------seven section  mob------------- */
+  .seven__section {
+    width: 375px;
+  }
+  .seven__section__container {
+    width: 355px;
+    margin: 0 auto;
+  }
+  .seven__section__tittle {
+    width: 291px;
+    height: auto;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .iph__seve__secion {
+    display: none;
+  }
+  .seven__section__content__box {
+    display: flex;
+    width: 350px;
+  }
+  .seven__section__right__box {
+    width: 350px;
+    height: auto;
+  }
+  .wrapper {
+    width: 350px;
+    height: auto;
+    margin: 0;
+    margin-bottom: 370px;
+  }
+  .wrapper label {
+    display: flex;
+    width: 350px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px 10.4px;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .seven__section__description {
+    width: 350px;
+  }
+  .seven__section__text2 {
+    width: 291px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  /* --------------------eight section  mob------------- */
+  .eight__section {
+    width: 375px;
+  }
+  .eight__section__container {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .eight__section__tittle {
+    width: 291px;
+    height: auto;
+    font-size: 36px;
+    line-height: 46px;
+    padding: 0;
+  }
+  .eight__section__content {
+    flex-flow: column;
+  }
+
+  .eight__section__navbar {
+    padding: 0;
+    width: 350px;
+  }
+  .eight__section__nav__item {
+    width: 350px;
+  }
+  .eight__section__nav__item:nth-of-type(4) {
+    width: 350px;
+  }
+  .macbook3__img {
+    width: 360px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .eight__iph__img {
+    width: 291px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .eight__section__rozetka__logo {
+    width: 113.14px;
+    top: 85%;
+    left: 35%;
+  }
+  /* --------------------nine section  mob------------- */
+  .nine__section {
+    width: 375px;
+    padding-top: 60px;
+  }
+  .nine__section__container {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .nine__section__tittle {
+    width: 200px;
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 135px;
+  }
+  .nine__section__content {
+    display: flex;
+    flex-flow: column;
+    width: 355px;
+  }
+  .nine__section__photo {
+    width: 350px;
+    height: 260px;
+  }
+  .dmitriy__photo {
+    top: -20%;
+    left: 10%;
+    height: 330px;
+  }
+  .nine__section__description {
+    position: relative;
+    width: 350px;
+    margin-bottom: 15px;
+  }
+  .video__svg {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -20%;
+    left: 40%;
+    z-index: 8;
+  }
+  .nine__section__text {
+    width: 330px;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+  }
+  .nine__section__right__description {
+    width: 350px;
+  }
+  .name__box {
+    width: 350px;
+  }
+  .right__box__list {
+    padding-left: 15px;
+    padding-top: 40px;
+  }
+  .right__box__list li {
+    width: 325px;
+  }
+  /* --------------------ten section  mob------------- */
+  .ten__section {
+    width: 375px;
+  }
+  .ten__section__container {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .ten__section__content {
+    display: flex;
+    flex-flow: column;
+  }
+  .ten__section__tittle {
+    width: 202px;
+    font-size: 36px;
+    line-height: 46px;
+    padding: 0;
+  }
+  .rozetka__img__1 {
+    display: none;
+  }
+  .rozetka__img__2 {
+    display: none;
+  }
+  .ten__section__description {
+    width: 330px;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0;
+  }
+  .ten__section__text1 {
+    width: 291px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ten__left__box {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .ten__right__box__img {
+    display: block;
+    margin: 0 auto;
+
+    width: 300px;
+  }
+  .ten__section__text2 {
+    padding: 0;
+    text-align: center;
+    width: 325px;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 auto;
+  }
+  .ten__right__box {
+    width: 350px;
+    height: auto;
+  }
+  /* --------------------eleven section  mob------------- */
+  .eleven__section {
+    width: 375px;
+    padding-top: 17px;
+  }
+  .eleven__section__container {
+    width: 350px;
+  }
+  .eleven__tittle {
+    width: 294px;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .eleven__content {
+    display: flex;
+    flex-flow: column;
+  }
+  .eleven__section__list {
+    padding: 0;
+    width: 350px;
+    margin-bottom: 35px;
+  }
+  .eleven__section__item {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .mackbook__eleven__img {
+    width: 283px;
+    display: block;
+    margin: 0 auto;
+  }
+  .rozetka__logo__11 {
+    width: 128.97px;
+    left: 31%;
+  }
+  /* --------------------twelve section  mob------------- */
+  .twelve__section {
+    display: none;
+  }
+
+  /* --------------------footer  mob------------- */
+
+  .footer {
+    width: 375px;
+    height: auto;
+  }
+  .footer__container {
+    width: 360px;
+  }
+  .footer__content {
+    display: flex;
+    flex-flow: column;
+  }
+  .left__footer__box {
+    padding-left: 25px;
+    width: 350px;
+    order: 2;
+  }
+  .middle__footer__box {
+    display: flex;
+    flex-flow: column;
+    padding-left: 25px;
+    margin-bottom: 30px;
+  }
+  .right__footer__box {
+    width: 375px;
+    display: flex;
+    flex-flow: column;
+    padding-left: 25px;
+    margin-bottom: 25px;
+  }
+  .footer__logo {
+    width: 200px;
+    height: 80.44px;
+  }
+  .socials {
+    width: 200px;
+  }
+  .socials img {
+    width: 40px;
+  }
+  .footer__adress {
+    margin-bottom: 40px;
   }
 }
