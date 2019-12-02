@@ -11,25 +11,51 @@
       rel="stylesheet"
     />
 
+
  
   </head>
   <body>
     <header class="header__wrapper">
       <div class="container">
         <div class="nav__box">
-          <div class="header__logo">
-            <img src="./img/e-logo.png" alt="logo" />
+          <div class="header__logo__box">
+            <img class="header__logo"
+            src="./img/e-logo.png" alt="logo" />
+
           </div>
           <ul class="navigation">
-            <a href="#">Выгода</a>
-            <a href="#">Схема работы</a>
-            <a href="#">Программа курса</a>
-            <a href="#"> О тренере</a>
-            <a href="#">Условия</a>
-            <a href="#">Вопросы</a>
+            <a href="#benefit">Выгода</a>
+            <a href="#scheme">Схема работы</a>
+            <a href="#program">Программа курса</a>
+            <a href="#about"> О тренере</a>
+            <a href="#conditions">Условия</a>
+            <a href="#questions">Вопросы</a>
           </ul>
         </div>
+  <!-- ------------------burger menu-------------- -->
+<div class="burger__navigation">
+<nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <a href="#benefit"><li>Выгода</li></a>
+      <a href="#scheme"><li>Схема работы</li></a>
+      <a href="#program"><li>Программа курса</li></a>
+      <a href="#about"><li> О тренере</li></a>
+      <a href="#conditions"><li>Условия</li></a>
+      <a href="#questions"><li>Вопросы</li></a>
+      
+    </ul>
+  </div>
+</nav>
+</div>
 
+
+
+<!-- ------------------------------------------------ -->
         <div class="header__box">
           <div class="header__title__box">
             <h1 class="header__title">Продавайте</h1>
@@ -90,7 +116,7 @@
         </div>
       </section>
       <!-- ============Second Section============   -->
-      <section class="second__section">
+      <section  id="benefit" class="second__section">
         <div class="container">
           <div class="second__section__wrapper">
             <div class="left__box">
@@ -168,7 +194,7 @@
       </section>
 
       <!-- ============Fourth Section============   -->
-      <section class="fourth__section">
+      <section id="scheme" class="fourth__section">
         <div class="fourth__section__container">
           <h1 class="fourth__section__tittle">
             Вот как это
@@ -380,7 +406,7 @@
         </div>
       </section>
       <!-- ============Seven Section============   -->
-      <section class="seven__section">
+      <section  id="program" class="seven__section">
         <h1 class="seven__section__tittle">
           <span class="orange__span">Программа </span>
           курса 21 день
@@ -563,7 +589,7 @@
         </div>
       </section>
       <!-- ============Nine Section============   -->
-      <section class="nine__section">
+      <section  id="about" class="nine__section">
         <div class="nine__section__container">
           <h1 class="nine__section__tittle">
             Кто ведет
@@ -616,7 +642,7 @@
         </div>
       </section>
       <!-- ============Ten Section============   -->
-      <section class="ten__section">
+      <section  id="trend" class="ten__section">
         <div class="ten__section__container">
           <h1 class="ten__section__tittle">
             Бренд
@@ -667,7 +693,7 @@
         </div>
       </section>
       <!-- ============eleven Section============   -->
-      <section class="eleven__section">
+      <section  id="conditions" class="eleven__section">
         <div class="eleven__section__container">
           <h1 class="eleven__tittle">
             Какой результат после обучения
@@ -711,93 +737,34 @@
         </div>
       </section>
       <!-- ============twelve Section============   -->
-      <section class="twelve__section">
-        <div class="twelve__section__container">
-          <h1 class="twelve__section__tittle">Остались вопросы?</h1>
-          <p class="twelve__section__descr">
-            Мы ответили на несколько самых популярных ниже
-          </p>
-          <div class="twelve__section__content">
-            <ul class="twelve__section__list">
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <div class="twelve__section__text__black">
-                  <p>
-                    Программа подходит новичкам, которые только ищут свою нишу
-                    по бизнесу с Китаем;
-                  </p>
-                  <p>
-                    Опытным предпринимателям, которые уже ведут действующий
-                    бизнес и хотят увеличить товарную матрицу + прибыль;
-                  </p>
-                  <p>
-                    Инвесторам, которые хотят найти вечную надежную тему для
-                    увеличения собственного актива
-                  </p>
+ 
+      <section class="reviews__wrapper" id="questions">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="reviews-title">Остались вопросы?</h2>
+              <p class="reviews-subtitle">Мы ответили на несколько самых популярных ниже</p>
+            </div>
+            <div class="col-md-12">
+              <div class="reviews-items">
+                <div class="reviews-item">
+                  <p class="reviews-item--title">Что произойдет после оплаты? <span>+</span></p>
+                  <p class="reviews-item--info">С вами свяжется наш менеджер и поможет пошагово стать e-Comerce предпринимателем и начать продавать в интернете. Поможет выйти на Rozetka, создать интернет -магазин , научит пользоваться удобной CRM системой.</p>
                 </div>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-              <li class="twelve__section__item">
-                <p class="twelve__section__text">
-                  Что произойдет после оплаты?
-                </p>
-                <button class="twelve__button">
-                  &#43;
-                </button>
-              </li>
-            </ul>
+                <div class="reviews-item">
+                  <p class="reviews-item--title">Что такое CRM? <span>+</span></p>
+                  <p class="reviews-item--info">Buy&amp;Sell CRM - это удобная платформа, для интернет-предпренимателя созданная для оптимизации времени. Мы автоматизировали все повторяющийся действия интернет-предпренимателя: создание карточки товара, обработка заявки, работа с поставщиками и товарами, доставка, продажи, маркетинг, обучение.</p>
+                </div>
+                <div class="reviews-item">
+                  <p class="reviews-item--title">Где взять интернет-магазин? <span>+</span></p>
+                  <p class="reviews-item--info">Для удобной работы и развития своего бренда в интернете вам необходим современный интернет-магазин. В каждом пакете школы интернет-предпренимателя Buy&amp;Sell, предусмотрен интернет-магазин. Мы предоставляем вам, интернет-магазин под ключ, с товарами, админкой, YML-плагином.</p>
+                </div>
+                <div class="reviews-item">
+                  <p class="reviews-item--title">Где взять товары для продажи? <span>+</span></p>
+                  <p class="reviews-item--info">Мы собрали базу поставщиков более чем 100 000 уникальных товаров. Это поставщики с Кореи и Китая, которые привозят качественные, уникальные товары по цене закупки каждому товару вы можете добавить 100-300% наценки.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -856,6 +823,7 @@
   
     
     
- 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="./index.js"> </script>
   </body>
 </html>
