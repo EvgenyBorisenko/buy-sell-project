@@ -782,51 +782,55 @@
 }
 .eight__section__nav__item {
   width: 400px;
-  height: 80px;
-  display: flex;
   background: #ffffff;
   box-shadow: 0px 20px 20px rgba(17, 47, 93, 0.2);
   border-radius: 10px;
   margin-bottom: 20px;
   padding-left: 26px;
 }
-.eight__section__nav__item:nth-of-type(4) {
-  display: flex;
-  flex-flow: wrap;
-  width: 400px;
-  height: 182px;
+
+.hidden__text__box {
+  display: none;
+}
+.hidden__text__description {
+  padding-bottom: 8px;
+}
+.hidden__text__box__active {
+  display: block;
+}
+
+/* ------------active-------------------------- */
+.eight__section__nav__item__active h4 {
+  color: #fd6b00;
+}
+.eight__section__nav__item__active p {
+  color: #ffffff;
+}
+.eight__section__nav__item__active .hidden__text__box {
+  display: block;
+}
+.eight__section__nav__item__active {
   background-color: #24263a;
   color: #ffffff;
-  font-weight: 200;
 }
-.eight__section__nav__item:nth-of-type(4) h3 {
-  color: #fd6b00;
-  width: 280px;
-  padding-left: 35px;
-  font-weight: 400;
-  font-size: 18px;
-  padding-top: 12px;
-  line-height: 26px;
-}
-.eight__section__nav__item:nth-of-type(4) p {
-  color: #ffffff;
-  font-size: 13px;
-  width: 394px;
-  padding-left: 1px;
-  line-height: 30px;
-}
-.eight__section__nav__item:nth-of-type(5) p {
-  padding-top: 12px;
-}
+
+/* .svg__img__active {
+  background-color: #ffffff;
+} */
 .eight__section__text {
-  width: 280px;
+  width: 350px;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
-  padding-left: 30px;
   align-items: center;
   display: flex;
+  margin-bottom: 20px;
+  padding-top: 10px;
 }
+.eight__section__text img {
+  margin-right: 35px;
+}
+
 .macbook3__img {
   width: 774px;
   height: 462px;
@@ -1095,8 +1099,9 @@
 }
 
 .reviews-subtitle {
-  width: 384px;
+  width: 220px;
   margin: 0 auto;
+  text-align: center;
   font-size: 14px;
   line-height: 22px;
   font-weight: 500;
@@ -1122,11 +1127,10 @@
 
 .reviews-item {
   width: 100%;
-  margin: 20px;
-  padding: 30px 40px;
+  margin: 15px;
+  padding: 20px 16px;
   max-width: 460px;
-
-  font-size: 22px;
+  font-size: 20px;
   line-height: 22px;
   color: #000000;
   background: #ffffff;
@@ -1166,6 +1170,8 @@
 .reviews-item--title {
   margin: 0px;
   position: relative;
+  display: flex;
+  font-size: smaller;
 }
 
 .reviews-item--title span {
@@ -1692,17 +1698,19 @@ hr {
   }
   .eight__section__content {
     flex-flow: column;
+    width: 365px;
   }
 
   .eight__section__navbar {
     padding: 0;
     width: 350px;
+    margin: 0 auto;
   }
   .eight__section__nav__item {
     width: 350px;
   }
-  .eight__section__nav__item:nth-of-type(4) {
-    width: 350px;
+  .eight__section__text {
+    width: 310px;
   }
   .macbook3__img {
     width: 360px;
