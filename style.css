@@ -788,6 +788,9 @@
   margin-bottom: 20px;
   padding-left: 26px;
 }
+.eight__section__nav__item:hover {
+  cursor: pointer;
+}
 
 .hidden__text__box {
   display: none;
@@ -805,6 +808,8 @@
 }
 .eight__section__nav__item__active p {
   color: #ffffff;
+  padding-right: 12px;
+  font-size: 15px;
 }
 .eight__section__nav__item__active .hidden__text__box {
   display: block;
