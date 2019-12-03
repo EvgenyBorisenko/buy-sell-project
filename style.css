@@ -1424,6 +1424,9 @@ hr {
     display: block;
     width: 100%;
   }
+  .burger__list__items a:nth-child(2) {
+    display: none;
+  }
   #menuToggle {
     display: block;
     position: relative;
@@ -1518,7 +1521,7 @@ hr {
     padding: 10px 0;
     font-size: 27px;
     color: #fff;
-    line-height: 2;
+    line-height: 2.5;
   }
 
   #menuToggle input:checked ~ ul {
@@ -1653,6 +1656,7 @@ hr {
   .five__section {
     width: 375px;
     padding: 0;
+    padding-bottom: 20px;
   }
   .five__section__container {
     width: 350px;
@@ -1675,7 +1679,7 @@ hr {
     padding: 0;
   }
   .iphone__img__rozetka {
-    display: block;
+    display: none;
     margin: 0 auto;
   }
   /* --------------------six section mob------------- */
