@@ -174,6 +174,8 @@
 .menuToggle {
   display: none;
 }
+/* ---------form------------- */
+
 /*  ============Second Section============  */
 
 .second__section {
@@ -253,7 +255,7 @@
 .third__section {
   display: block;
   width: 100%;
-  height: 907px;
+  height: 790px;
   background-image: url('./img/-e-bg\ \ 1.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -549,7 +551,6 @@
 
 .five__section__description {
   width: 350px;
-  height: 220px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -568,7 +569,6 @@
 .five__section__description h3 {
   position: relative;
   width: 126px;
-  height: 54px;
   font-size: 26px;
   line-height: 54px;
   padding-left: 39px;
@@ -578,10 +578,11 @@
 }
 .five__section__description p {
   width: 278px;
-  height: 92px;
   font-size: 14px;
   font-weight: 100;
-  padding-top: 27px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 30px;
   line-height: 21px;
   color: black;
 }
@@ -649,7 +650,7 @@
   margin: 0 auto;
   padding-top: 123px;
   text-align: center;
-  margin-bottom: 110px;
+  margin-bottom: 135px;
 }
 .seven__section__right__box {
   width: 850px;
@@ -791,12 +792,20 @@
   padding-left: 47px;
 }
 .eight__section__nav__item {
+  position: relative;
   width: 400px;
   background: #ffffff;
   box-shadow: 0px 20px 20px rgba(17, 47, 93, 0.2);
   border-radius: 10px;
   margin-bottom: 20px;
   padding-left: 26px;
+}
+.eight__section__nav__item::after {
+  content: '+';
+  font-size: 25px;
+  position: absolute;
+  top: 30%;
+  left: 92%;
 }
 .eight__section__nav__item:hover {
   cursor: pointer;
@@ -834,7 +843,7 @@
   color: #ffffff;
   position: relative;
 }
-.eight__section__nav__item__active::after {
+/* .eight__section__nav__item__active::after {
   content: '';
   display: block;
   background-color: #fc4647;
@@ -844,6 +853,14 @@
   top: 72px;
   left: 0;
   z-index: 66;
+} */
+.eight__section__nav__item__active::after {
+  content: '+';
+  font-size: 25px;
+  position: absolute;
+  top: 10%;
+  left: 92%;
+  color: #fff;
 }
 /* --------------------------------------------- */
 .eight__section__text {
@@ -998,7 +1015,13 @@
   border-radius: 50%;
   color: orangered;
 }
-
+.nine__green__span {
+  color: #00a046;
+}
+.nine__orange__span {
+  color: #fd6b00;
+  font-weight: 500;
+}
 /*  ============Ten  Section============  */
 .ten__section {
   width: 100%;
@@ -1725,11 +1748,16 @@ hr {
     height: auto;
     padding: 20px 10.4px;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
   }
   .seven__section__description {
     width: 350px;
+    padding-top: 20px;
+  }
+  .seven__section__tittle {
+    padding-top: 40px;
+    margin-bottom: 30px;
   }
   .seven__section__text2 {
     width: 291px;
@@ -1766,6 +1794,7 @@ hr {
   }
   .eight__section__text {
     width: 310px;
+    font-size: 15px;
   }
   .macbook3__img {
     width: 360px;
@@ -1829,6 +1858,7 @@ hr {
   }
   .nine__section__text {
     width: 330px;
+    font-weight: 100;
     font-size: 18px;
     line-height: 26px;
     margin: 0;
@@ -1845,6 +1875,12 @@ hr {
   }
   .right__box__list li {
     width: 325px;
+  }
+  .nine__green__span {
+    color: #00a046;
+  }
+  .nine__orange__span {
+    color: #fd6b00;
   }
   /* --------------------ten section  mob------------- */
   .ten__section {
@@ -1950,6 +1986,10 @@ hr {
 
   .reviews-title {
     width: 100%;
+    width: 291px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
     text-align: center;
   }
   .reviews-subtitle {
